@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "title": "Covid Vaccination and Death Rates",
+    "summary": "A real-world example of categorical 'Simpson's Paradox' found in data on the Delta variant of Covid from Public Health England.",
+	"data_source": "https://www.openintro.org/data/index.php?data=simpsons_paradox_covid",
+    "initial_view": "explore-categorical",
+    "lang": "en",
+    "detail": {
+      "question": "Does vaccination really increase the risk of death?",
+      "outcome": "Outcome",
+      "outcome_numerator": "death",
+      "outcome_rate_label": "Death Rate",
+      "input_count_label": "No. of Covid Cases",
+      "initial_variable": "Vaccinated",
+      "simulate_categories": ["Age", "Vaccinated"],
+      "category_orders": {"Age": ["< 50", "50 +"], "Outcome": ["survived", "death"]}
+    },
+    "menu_items": ["explore-categorical", "simulate-categorical"],
+	"asset_map": {
+		"data": "covid_en.csv"
+	}
+}

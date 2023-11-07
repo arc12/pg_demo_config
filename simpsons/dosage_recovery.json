@@ -1,0 +1,16 @@
+{
+    "enabled": true,
+    "title": "Dosage and Recovery Probability",
+    "summary": "Simulated data for cases of poisoning from eating a kind of toadstool. Increasing the dose of a toxin appears to increase the chance of survival.",
+    "initial_view": "explore-continuous",
+    "lang": "en",
+    "detail": {
+      "question": "Cases of poisoning from eating a kind of toadstool are shown. Increasing the dose of a toxin appears to increase the chance of survival. How can this be?",
+      "continuous_cols": ["Dosage", "Recovery Probability"],
+      "category_orders": null
+    },
+    "menu_items": ["explore-continuous"],
+	"asset_map": {
+		"data": "Dosage-Recovery Probability.csv"
+	}
+}

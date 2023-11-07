@@ -1,0 +1,4 @@
+{
+    "activity": {"enabled": true, "sink": "cosmosdb-nosql", "database": "activity", "container": "temp-test"},
+    "plaything_name_in_path": true
+}

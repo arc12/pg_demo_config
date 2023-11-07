@@ -1,0 +1,15 @@
+{
+    "enabled": true,
+    "title": "Helo Fyd",
+    "summary": "Yn dweud Hello World yn Saesneg ac yn dangos graff poblogaeth y byd gyda labeli Cymraeg.",
+    "initial_view": "hello",
+    "lang": "cy",
+    "detail": {
+
+    },
+    "menu_items": ["about", "hello", "chart"],
+    "asset_map": {
+        "world_pop": "world_population.csv",
+        "about": "about_cy.md"
+    }
+}

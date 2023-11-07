@@ -1,0 +1,16 @@
+{
+    "enabled": true,
+    "title": "Coffee Consumption and Neuroticism",
+    "summary": "Simulated data for a relationship between neuroticism and level of coffee consumption.",
+    "initial_view": "explore-continuous",
+    "lang": "en",
+    "detail": {
+      "question": "Coffee consumption appears to correlate with a measure of neuroticism. This is not surprising, but is it true?",
+      "continuous_cols": ["Coffee", "Neuroticism"],
+      "category_orders": null
+    },
+    "menu_items": ["explore-continuous"],
+	"asset_map": {
+		"data": "Coffee-Neuroticism.csv"
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "title": "UK Berkeley Admissions Rates 1973",
+    "summary": "The 'classic' example of categorical 'Simpson's Paradox'.",
+    "initial_view": "explore-categorical",
+    "lang": "en",
+    "detail": {
+      "question": "Did UC Berkeley really admit a smaller proportion of female applicants than male?",
+      "outcome": "Outcome",
+      "outcome_numerator": "admitted",
+      "outcome_rate_label": "Acceptance Rate",
+      "input_count_label": "No. of Applications",
+      "initial_variable": "Sex",
+      "simulate_categories": ["Department", "Sex"]
+    },
+    "menu_items": ["explore-categorical", "simulate-categorical"],
+	"asset_map": {
+		"data": "berkeley_en.csv"
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "title": "Template for Attribute Issues Questionnaire",
+    "summary": "Illustrates the structure and presentation of the plaything specification.",
+    "initial_view": "about",
+    "lang": "en",
+    "detail": {
+		"attribute_scope": "Explains what kind of entity the attributes concern and outlines the process in which they are being used.",
+		"key_question": "The headline question for the questionnaire, typically asking which attributes should NOT be used for a specified purpose.",
+		"issue_categories": [
+			{"code": "cat_code_1", "label": "Category A", "summary": "About category A"},
+			{"code": "cat_code_2", "label": "Category B"},
+			{"code": "", "label": "No Issues"}
+		],
+		"response_type": "explain"
+    },
+    "menu_items": ["about", "questionnaire"],
+	"asset_map": {
+		"about": "template_issue_categories.md",
+		"attributes": "template_attributes.csv"
+	}
+}

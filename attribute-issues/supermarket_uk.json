@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "title": "Supermarket Employee Bonuses",
+    "summary": "A large supermarket uses data to automatically decide which employees should get a bonus.",
+    "initial_view": "about",
+    "lang": "en",
+    "detail": {
+		"attribute_scope": "A large supermarket has decided to use data to automatically decide which employees should get a bonus. Senior management believe this will make it a more fair process and have given their IT team the job of building the system.",
+		"key_question": "Which attributes should NOT be used to decide who gets a bonus?",
+		"issue_categories": [
+			{"code": "equality_act", "label": "Equality Act"},
+			{"code": "reputation", "label": "Reputation Risks", "summary": "Anythinh which the public might take exception to."},
+			{"code": "", "label": "No Issues"}
+		],
+		"response_type": "explain"
+    },
+    "menu_items": ["about", "questionnaire"],
+	"asset_map": {
+		"about": "supermarket_uk_issue_categories.md",
+		"attributes": "supermarket_uk_attributes.csv"
+	}
+}

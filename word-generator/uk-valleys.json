@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "title": "British Valley Names",
+    "summary": "Three valley name generators, including an illustration of bias. All have a prediction window of 3 characters.",
+    "initial_view": "generate",
+    "lang": "en",
+    "detail": {
+	  "instruction": "Explore 'Generator A' first. Then consider that it contains bias. Can you work out what the bias is? Look at 'Generator B' to test your idea. 'Generator C' shows the bias more clearly and has an additional problem for you to consider.",
+	  "capitalize": true,
+      "models": [
+		{"code": "model-1", "label": "Generator A"},
+		{"code": "model-2", "label": "Generator B"},
+		{"code": "model-3", "label": "Generator C"}
+	  ]
+    },
+    "menu_items": ["generate", "about"],
+	"asset_map": {
+		"about": "about_en.md",
+		"model-1": "Valleys-E-3.pickle",
+		"model-2": "Valleys-ES-3.pickle",
+		"model-3": "Valleys-EW-3.pickle"
+	}
+}

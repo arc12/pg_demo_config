@@ -1,0 +1,5 @@
+Data obtained from: https://www.worldometers.info/world-population/world-population-by-year/
+
+Units and scale:
+- Density - people per square km
+- Yearly change is percentage

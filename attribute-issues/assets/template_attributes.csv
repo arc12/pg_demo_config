@@ -1,0 +1,4 @@
+code,label,summary,category,explanation
+attr1,Attribute 1,About attribute No. 1,cat_code_1,
+attr2,Attribute 2,About attribute No. 2,,
+attr3,Attribute 3,About attribute No. 4,cat_code_2,"Three is a magic number, so must be in Category B."

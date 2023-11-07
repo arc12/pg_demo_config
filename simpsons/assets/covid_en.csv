@@ -1,0 +1,9 @@
+Age,Vaccinated,Outcome,N
+< 50,unvaccinated,survived,147564
+< 50,vaccinated,survived,89786
+50 +,vaccinated,survived,26847
+50 +,unvaccinated,survived,3235
+50 +,vaccinated,death,460
+50 +,unvaccinated,death,205
+< 50,unvaccinated,death,48
+< 50,vaccinated,death,21

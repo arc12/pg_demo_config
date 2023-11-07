@@ -1,0 +1,13 @@
+code,label,summary,category,explanation
+work_days,Work Days,"Whether the employee has worked on a Friday, Saturday, or Sunday",equality_act,"Since these days are days of rest in some religeons, using this information might be a source of indirect discrimination on the basis of religeon or belief."
+days_sick,Days Off Sick,The number of days of sick leave in the last year.,,
+age,Age,,equality_act,
+days_late,Days Late to Work,The number of days when the employee was late to work in the last year.,,
+sm_brand,Social Media Brand Mentions,Counts of positive and negative sentiment posts about the supermarket by the employee,,This would probably be legitimate so long as only public data is used.
+ethnicity,Ethnicity,This was collected during recuitment for equal opportunities monitoring.,equality_act,Race is a protected characteristic so using this in an automated decision-making process would be unlawful. The IT team could exclude ethnicity from the decision-making algorithm but still use it to check their algorithm was not unintentionally biassed against people of certain ethnicity.
+partner_name,Partner Name,The name of a married or un-married partner. The supermarket gives a discount to partners.,equality_act,A name is not likely to be useful by itself but if the IT team decided to use it to guess the gender of the partner then this would transgress protection of sexual orientation.
+hair_colour,Hair Colour,,,
+gender,Gender,,equality_act,
+cust_comp,Customer Compliments,"Checkouts are equipped with a ""smiley""  button at the checkout which satisfied customers can press.",,
+checkout_rate,Checkout Rate,Average rate of processing sales at the checkout.,,
+sm_network,Social Media Network,"The IT team creates a metric for the ""influence"" which the employee has in social media by ""mining"" data about their social network.",reputation,

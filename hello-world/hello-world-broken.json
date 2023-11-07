@@ -1,0 +1,12 @@
+{
+    "enabled": true,
+    "title": "Hello World"
+    "summary": "Says Hello World in English and shows world population graph with English Labels.",
+    "lang": "en",
+    "detail": {
+
+    },
+    "asset_map": {
+        "world_pop": "world_population.csv"
+    }
+}
