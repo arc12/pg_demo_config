@@ -1,0 +1,17 @@
+{
+    "enabled": true,
+    "title": "Prediction Interpretation Test 1",
+    "summary": "Submit an interpretation of an explained prediction",
+    "initial_view": "interpret",
+    "lang": "en",
+    "detail": {
+		"prediction_title": "Chance of success",
+		"instance_name": "student",
+		"input_prompt": "What questions would you ask to validate this prediction?"
+    },
+    "menu_items": ["about", "interpret", "review"],
+    "asset_map": {
+        "examples": "syn_model_1_examples.json",
+        "about": "about_en.md"
+    }
+}
