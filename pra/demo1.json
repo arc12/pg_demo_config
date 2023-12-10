@@ -1,0 +1,31 @@
+{
+    "enabled": true,
+    "title": "Basic ROCs",
+    "summary": "Six simulated curves of generic shape including one with an AUC of 0.5.",
+    "initial_view": "simulate",
+    "lang": "en",
+    "detail": {
+		"context_info": "This example uses generic 'data science' terminology but the specification can define alternative phrases which are anchored in a particular setting. For example, 'true positive' could be replaced by 'correct diagnosis' when talking about a disease test.",
+		"start_curve": "D",
+		"start_class_fraction_pc": 50,
+		"start_specificity": 0.9,
+		"with_cb_values": true,
+		"scatter_grid_size": 30,
+		"class_fraction_label": "Positive Fraction (%)",
+		"specificity_label": "Specificity",
+		"tp": "True Positive",
+		"fp": "False Positive",
+		"tn": "True Negative",
+		"fn": "False Negative",
+		"cb_tp": 10,
+		"cb_fp": -5,
+		"cb_tn": 0,
+		"cb_fn": -20,
+		"cb_units": "£"
+    },
+    "menu_items": ["about", "simulate"],
+    "asset_map": {
+        "rocs": "rocs.json",
+        "about": "about_en.md"
+    }
+}
