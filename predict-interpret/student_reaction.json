@@ -1,0 +1,18 @@
+{
+    "enabled": true,
+    "title": "Student Reaction",
+    "summary": "This uses the same data as 'Critical or Supportive' but considers the student's reaction.",
+    "initial_view": "interpret",
+    "lang": "en",
+    "detail": {
+		  "prediction_title": "Chance of Good Final Grade",
+		  "notes": "Anxiety is a self-declared value, where 5 is a normal balanced level, 1 is extremely 'laid back' and 9 is 'highly stressed'.",
+		  "instance_name": "student",
+		  "input_prompt": "If you were a student presented with this prediction and influence diagram, what would you say?"
+    },
+    "menu_items": ["about", "interpret", "review"],
+    "asset_map": {
+        "examples": "critic_supportive_1_examples.json",
+        "about": "about_en.md"
+    }
+}

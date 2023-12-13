@@ -1,0 +1,19 @@
+{
+    "enabled": true,
+    "title": "Critical or Supportive",
+    "summary": "Adopt either a critical or supportive position in respect of student behaviour performance.",
+    "initial_view": "interpret",
+    "lang": "en",
+    "detail": {
+		  "prediction_title": "Chance of Good Final Grade",
+		  "notes": "Anxiety is a self-declared value, where 5 is a normal balanced level, 1 is extremely 'laid back' and 9 is 'highly stressed'.",
+		  "instance_name": "student",
+		  "input_prompt": "Choose a persona and note down what you would say to the student?",
+      "personas": ["Critic", "Supporter"]
+    },
+    "menu_items": ["about", "interpret", "review"],
+    "asset_map": {
+        "examples": "critic_supportive_1_examples.json",
+        "about": "about_en.md"
+    }
+}
