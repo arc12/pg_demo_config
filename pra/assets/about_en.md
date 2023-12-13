@@ -13,7 +13,7 @@ These are often expressed in terms of the four different combinations of the gue
 
 Precision and recall may be particularly useful when we put different value on, for example, a false positive vs a false negative. For example, consider a medical test for a fatal disease. In such cases, an institutional policy might set either a minimum standard or a target for recall. On the other hand, in a resource-constrained setting with lower stakes, there might be a requirement for higher precision. This might be particularly important where the cost of intervention is high; a true positive is worthwhile but a false positive is a costly waste.
 
-For the same informed guesser, higher precision entails lower recall, and _vice versa_; there is a trade-off. If numerical values can be given to each of the yes/no and true/false combinations, an optimal position for the trade-off can be computed.
+For the same informed guesser, higher precision entails lower recall, and _vice versa_; there is a trade-off. If numerical values can be given to each of the yes/no and true/false combinations, an optimal position for the trade-off can be computed. This is conveniently calculated as a mean cost or benefit per item/event.
 
 Another situation where accuracy can become a very poor measure of performance is where the balance between actual "yes" and "no" cases is far from equal. Relatively rare events/items are often the ones we care about (machines breaking, students failing exams, people having fatal disesases, etc). In such cases, always guessing "no" can give a higher accuracy than a useful guesser which focusses on high recall.
 
