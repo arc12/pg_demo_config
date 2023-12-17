@@ -1,12 +1,12 @@
 {
     "enabled": true,
-    "title": "Data Science Concepts",
-    "summary": "Six simulated curves of generic shape including one with an AUC of 0.5.",
+    "title": "Data Science Concepts 2",
+    "summary": "Three simulated curves with different 'tuning' aims, but very similar ROC AUC metrics.",
     "initial_view": "simulate",
     "lang": "en",
     "detail": {
-		"context_info": "This example uses generic 'data science' terminology but the specification can define alternative phrases which are anchored in a particular setting. For example, 'true positive' could be replaced by 'correct diagnosis' when talking about a disease test.",
-		"start_curve": "Good",
+		"context_info": "The three models have very similar performance using a common data science metric, but they have been optimised for slightly different contexts of use. Can you work out how those contexts differ?",
+		"start_curve": "Type 1",
 		"start_class_fraction_pc": 20,
 		"start_specificity": 0.75,
 		"with_cb_values": true,
@@ -25,7 +25,7 @@
     },
     "menu_items": ["about", "simulate"],
     "asset_map": {
-        "rocs": "demo1_rocs.json",
+        "rocs": "tune_vary_rocs.json",
         "about": "about_en.md"
     }
 }
