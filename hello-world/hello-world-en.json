@@ -1,7 +1,7 @@
 {
     "enabled": true,
     "title": "Hello World",
-    "summary": "Says Hello World in English and shows world population graph with English labels.",
+    "summary": "Says Hello World and shows world population graph with English labels.",
     "initial_view": "hello",
     "lang": "en",
     "detail": {
