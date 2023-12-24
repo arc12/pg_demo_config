@@ -1,5 +1,5 @@
 {
-    "activity": {"enabled": true, "sink": "cosmosdb-nosql", "database": "activity", "container": "temp-test"},
+    "activity": {"enabled": true, "sink": "cosmosdb-nosql", "database": "activity", "container": "temp-test", "agg_enabled": true, "agg_container": "agg-test", "max_agg_hours": 168},
     "plaything_name_in_path": true,
     "keep_warm": true
 }
